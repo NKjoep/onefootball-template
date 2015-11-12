@@ -1,0 +1,12 @@
+{
+  "name": "onefootball-template",
+  "version": "1.0.0",
+  "description": "The goal of this project is to build a server-side template following the given model",
+  "main": "bin/index.js",
+  "keywords": [],
+  "author": "Andrea Dessì <andrealuciano.dessi@gmail.com> (http://stealthefish.com)",
+  "license": "MIT",
+  "dependencies": {
+    "grunt": "^0.4.5"
+  }
+}
