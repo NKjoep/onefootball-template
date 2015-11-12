@@ -1,5 +1,63 @@
-@color: #000;
+// global variables coming from the parser...
+// @brand-color
+// @player-img
+// @team-img
 
-body {
-  color: @color;
+@base-text-color: hardlight(@brand-color, #fff);
+@base-font-size: 350px;
+@base-top-space: 50px;
+
+.player-card {
+  max-width: 1200px;
+  font-family: 'pluto sans condensed regular','Helvetica Neue',Helvetica,sans-serif;
+  background-image: url('bg-player-template.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-clip: padding-box;
+  background-size: cover;
+
+  &>.overlay {
+    background-color: fadeout(@brand-color, 12%);
+    padding-bottom: @base-top-space;
+    padding-top: @base-top-space;
+  }
+
+  .main-logo {
+    display: inline-block;
+  }
+
+  .number {
+    color: @base-text-color !important;
+    font-size: @base-font-size;
+    margin: 0 0 0 0;
+    padding: 0;
+  }
+  .lastname {
+    color: @base-text-color !important;
+    font-size: @base-font-size/5.5;
+  }
+
+  .logos {
+    .logo {
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-clip: padding-box;
+      background-size: cover;
+      display: inline-block;
+
+      &.player {
+        background-image: url(@player-img);
+        border-radius: 100%;
+        margin-right: 15px;
+      }
+      &.team {
+        background-image: url(@team-img);
+      }
+    }
+  }
+
 }
