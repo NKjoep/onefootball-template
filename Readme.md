@@ -26,6 +26,6 @@ src/
 ```
 
 - **data.json**: the data source, our grunt tasks will read the data from this file
-- **template.ejs**: it will produce the `dist/index.html` file, run it from your browser
+- **template.ejs**: it will produce the `dist/index.html` file
 - **app.less**: put here your LESS code, it will be parsed and transformed to dist/assets/app.css
 - **assets/**: this folder contain static files that will be copied to `dist/assets/`
