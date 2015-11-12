@@ -2,14 +2,14 @@
 
 ## Usage
 
-- ``$ npm install`` (just the first time)
-- ``$ grunt``
+- `$ npm install` (just the first time)
+- `$ grunt`
 
 Then navigate the `dist/` folder, you'll find the output.
 
 Other available tasks:
 
-- ``grunt dev`: will watch for changes form the `src/` folder and re-build automagically
+- `grunt dev`: will watch for changes form the `src/` folder and re-build automagically
 
 ## Customization
 
