@@ -1,0 +1,195 @@
+{
+   "data" : {
+      "competitions" : [
+         {
+            "seasonId" : 1196,
+            "competitionId" : 90,
+            "team" : {
+               "idInternal" : 5,
+               "name" : "Barcelona",
+               "logoUrls" : [
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png",
+                     "size" : "56x56"
+                  },
+                  {
+                     "size" : "164x164",
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png"
+                  }
+               ],
+               "id" : 178,
+               "colors" : {
+                  "shirtColorAway" : "FFCC33",
+                  "shirtColorHome" : "990000",
+                  "mainColor" : "8E1B3B",
+                  "crestMainColor" : "DDB500"
+               }
+            }
+         },
+         {
+            "competitionId" : 68,
+            "seasonId" : 1239,
+            "team" : {
+               "idInternal" : 5,
+               "name" : "Barcelona",
+               "id" : 178,
+               "colors" : {
+                  "mainColor" : "8E1B3B",
+                  "crestMainColor" : "DDB500",
+                  "shirtColorAway" : "FFCC33",
+                  "shirtColorHome" : "990000"
+               },
+               "logoUrls" : [
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png",
+                     "size" : "56x56"
+                  },
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png",
+                     "size" : "164x164"
+                  }
+               ]
+            }
+         },
+         {
+            "competitionId" : 10,
+            "seasonId" : 1257,
+            "team" : {
+               "logoUrls" : [
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png",
+                     "size" : "56x56"
+                  },
+                  {
+                     "size" : "164x164",
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png"
+                  }
+               ],
+               "id" : 178,
+               "colors" : {
+                  "crestMainColor" : "DDB500",
+                  "mainColor" : "8E1B3B",
+                  "shirtColorAway" : "FFCC33",
+                  "shirtColorHome" : "990000"
+               },
+               "idInternal" : 5,
+               "name" : "Barcelona"
+            }
+         },
+         {
+            "competitionId" : 63,
+            "seasonId" : 1282,
+            "team" : {
+               "logoUrls" : [
+                  {
+                     "size" : "56x56",
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png"
+                  },
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png",
+                     "size" : "164x164"
+                  }
+               ],
+               "id" : 178,
+               "colors" : {
+                  "shirtColorHome" : "990000",
+                  "shirtColorAway" : "FFCC33",
+                  "mainColor" : "8E1B3B",
+                  "crestMainColor" : "DDB500"
+               },
+               "idInternal" : 5,
+               "name" : "Barcelona"
+            }
+         },
+         {
+            "competitionId" : 18,
+            "seasonId" : 1314,
+            "team" : {
+               "name" : "Barcelona",
+               "idInternal" : 5,
+               "colors" : {
+                  "crestMainColor" : "DDB500",
+                  "mainColor" : "8E1B3B",
+                  "shirtColorHome" : "990000",
+                  "shirtColorAway" : "FFCC33"
+               },
+               "id" : 178,
+               "logoUrls" : [
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png",
+                     "size" : "56x56"
+                  },
+                  {
+                     "size" : "164x164",
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png"
+                  }
+               ]
+            }
+         },
+         {
+            "seasonId" : 1474,
+            "competitionId" : 5,
+            "team" : {
+               "logoUrls" : [
+                  {
+                     "size" : "56x56",
+                     "url" : "https://images.onefootball.com/icons/internal/56/5.png"
+                  },
+                  {
+                     "url" : "https://images.onefootball.com/icons/internal/164/5.png",
+                     "size" : "164x164"
+                  }
+               ],
+               "colors" : {
+                  "mainColor" : "8E1B3B",
+                  "crestMainColor" : "DDB500",
+                  "shirtColorHome" : "990000",
+                  "shirtColorAway" : "FFCC33"
+               },
+               "id" : 178,
+               "name" : "Barcelona",
+               "idInternal" : 5
+            }
+         }
+      ],
+      "info" : {
+         "id" : 134,
+         "joinDate" : "2002-08-01T00:00:00Z",
+         "weight" : "72",
+         "imageSrc" : "https://images.onefootball.com/players/134.jpg",
+         "name" : "Lionel Messi",
+         "position" : "Forward",
+         "clubTeam" : {
+            "name" : "Barcelona",
+            "idInternal" : 5,
+            "colors" : {
+               "mainColor" : "8E1B3B",
+               "crestMainColor" : "DDB500",
+               "shirtColorAway" : "FFCC33",
+               "shirtColorHome" : "990000"
+            },
+            "id" : 178,
+            "logoUrls" : [
+               {
+                  "size" : "56x56",
+                  "url" : "https://images.onefootball.com/icons/internal/56/5.png"
+               },
+               {
+                  "url" : "https://images.onefootball.com/icons/internal/164/5.png",
+                  "size" : "164x164"
+               }
+            ]
+         },
+         "birthDate" : "1987-06-24",
+         "height" : "170",
+         "age" : 28,
+         "number" : 10,
+         "country" : "Argentina",
+         "firstName" : "Lionel",
+         "lastName" : "Messi"
+      }
+   },
+   "message" : "Player Season Stats Feed successfully generated. Api Version: 1",
+   "status" : "ok",
+   "code" : 0
+}
