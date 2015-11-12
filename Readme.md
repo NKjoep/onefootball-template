@@ -1,6 +1,6 @@
 # onefootball-template generator
 
-**Usage**:
+## Usage
 
 - ``$ npm install`` (just the first time)
 - ``$ grunt``
