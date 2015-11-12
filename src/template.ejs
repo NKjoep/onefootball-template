@@ -24,28 +24,15 @@
       <div class="player-card">
         <div class="overlay">
           <div class="row">
-            <div class="col-xs-4 text-center">
+            <div class="col-xs-12 col-md-4 text-center">
               <img class="main-logo" src="assets/logo.png" alt="OneFootball">
             </div>
-            <div class="col-xs-4 text-center"><h1 class="number"><%= data.number %></h1></div>
-            <div class="col-xs-4 text-center ">
-              <div class="logos">
-                <div class="logo player">
-                  <span class="sr-only">
-                    <translate>Player</translate>:
-                      &#32;<%= data.name %>
-                      &#32;<translate>from</translate>:
-                      &#32;<%= data.country %>
-                  </span>
-                </div>
-                &#32;
-                <div class="logo team">
-                  <span class="sr-only">
-                    <translate>Team</translate>:&#32;<%= data.clubTeam.name %>
-                  </span>
-                </div>
-
-              </div>
+            <div class="col-xs-12 margin-top-base text-center hidden-md hidden-lg">
+              <div class="logos"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
+            </div>
+            <div class="col-xs-12 col-md-4 text-center"><h1 class="number"><%= data.number %></h1></div>
+            <div class="col-xs-12 col-md-4 text-center hidden-xs hidden-sm">
+              <div class="logos"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
             </div>
           </div>
           <div class="row">

@@ -7,7 +7,12 @@
 @base-font-size: 350px;
 @base-top-space: 50px;
 
+
 .player-card {
+  .margin-top-base {
+    margin-top: @base-top-space;
+  }
+
   max-width: 1200px;
   font-family: 'pluto sans condensed regular','Helvetica Neue',Helvetica,sans-serif;
   background-image: url('bg-player-template.png');
@@ -31,6 +36,7 @@
     font-size: @base-font-size;
     margin: 0 0 0 0;
     padding: 0;
+    line-height: 1;
   }
   .lastname {
     color: @base-text-color !important;
