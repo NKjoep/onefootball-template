@@ -13,7 +13,7 @@ Other available tasks:
 
 ## Customization
 
-the `src` folder contains this files:
+the `src` folder contains:
 
 ```
 src/
