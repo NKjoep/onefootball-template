@@ -4,16 +4,15 @@
 // @team-img
 
 @base-text-color: hardlight(@brand-color, #fff);
-@base-font-size: 350px;
+@base-font-size: 330px;
 @base-top-space: 50px;
-
+@base-overlay-color: fadeout(@brand-color, 12%);
 
 .player-card {
   .margin-top-base {
     margin-top: @base-top-space;
   }
 
-  max-width: 1200px;
   font-family: 'pluto sans condensed regular','Helvetica Neue',Helvetica,sans-serif;
   background-image: url('bg-player-template.png');
   background-repeat: no-repeat;
@@ -22,7 +21,7 @@
   background-size: cover;
 
   &>.overlay {
-    background-color: fadeout(@brand-color, 12%);
+    background-color: @base-overlay-color;
     padding-bottom: @base-top-space;
     padding-top: @base-top-space;
   }
@@ -35,8 +34,13 @@
     color: @base-text-color !important;
     font-size: @base-font-size;
     margin: 0 0 0 0;
-    padding: 0;
     line-height: 1;
+    padding: 0;
+
+    /* Medium devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+      padding-top: @base-top-space;
+    }
   }
   .lastname {
     color: @base-text-color !important;
@@ -44,6 +48,17 @@
   }
 
   .logos {
+    width: 100%;
+    text-align: center;
+    @media (min-width: 992px) {
+      width: 90%;
+      &.left {
+        margin: 0 0 0 10%;
+      }
+      &.right {
+        margin: 0 10% 0 0;
+      }
+    }
     .logo {
       width: 100px;
       height: 100px;

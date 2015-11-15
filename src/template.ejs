@@ -25,14 +25,18 @@
         <div class="overlay">
           <div class="row">
             <div class="col-xs-12 col-md-4 text-center">
-              <img class="main-logo" src="assets/logo.png" alt="OneFootball">
+              <div class="logos left">
+                <img class="main-logo img-responsive" src="assets/logo.png" alt="OneFootball">
+              </div>
             </div>
+            <div class="clearfix hidden-md hidden-lg"></div>
             <div class="col-xs-12 margin-top-base text-center hidden-md hidden-lg">
-              <div class="logos"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
+              <div class="logos right">
+                <div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
             </div>
             <div class="col-xs-12 col-md-4 text-center"><h1 class="number"><%= data.number %></h1></div>
-            <div class="col-xs-12 col-md-4 text-center hidden-xs hidden-sm">
-              <div class="logos"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
+            <div class="col-xs-12 col-md-4 text-right hidden-xs hidden-sm">
+              <div class="logos right"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
             </div>
           </div>
           <div class="row">
