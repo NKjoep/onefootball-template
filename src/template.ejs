@@ -20,25 +20,24 @@
   </head>
   <body>
     <div class="container">
-
       <div class="player-card">
         <div class="overlay">
+
           <div class="row">
-            <div class="col-xs-12 col-md-4 text-center">
-              <div class="logos left">
-                <img class="main-logo img-responsive" src="assets/logo.png" alt="OneFootball">
+            <div class="col-xs-12 col-md-6 text-center">
+              <img class="main-logo img-responsive" src="assets/logo.png" alt="OneFootball">
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <div class="logos text-center">
+                <div class="logo player"></div>&nbsp;<div class="logo team"></div>
               </div>
             </div>
-            <div class="clearfix hidden-md hidden-lg"></div>
-            <div class="col-xs-12 margin-top-base text-center hidden-md hidden-lg">
-              <div class="logos right">
-                <div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
-            </div>
-            <div class="col-xs-12 col-md-4 text-center"><h1 class="number"><%= data.number %></h1></div>
-            <div class="col-xs-12 col-md-4 text-right hidden-xs hidden-sm">
-              <div class="logos right"><div class="logo player"></div>&nbsp;<div class="logo team"></div></div>
-            </div>
           </div>
+
+          <div class="row text-center">
+            <h1 class="number"><%= data.number %></h1>
+          </div>
+
           <div class="row">
             <div class="col-xs-12 text-center">
               <p class="lastname">
@@ -46,10 +45,10 @@
               </p>
             </div>
           </div>
-        </div><!-- //overlay -->
-      </div><!-- //player-card -->
 
-    </div>
+        </div><!-- overlay -->
+      </div><!-- player-card -->
+    </div><!-- container -->
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
