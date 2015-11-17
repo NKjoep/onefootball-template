@@ -1,0 +1,43 @@
+{
+   "data" : {
+      "info" : {
+         "id" : 135,
+         "joinDate" : "2002-08-01T00:00:00Z",
+         "weight" : "72",
+         "imageSrc" : "https://images.onefootball.com/players/134.jpg",
+         "name" : "Lionel Messi",
+         "position" : "Forward",
+         "clubTeam" : {
+            "name" : "Barcelona",
+            "idInternal" : 5,
+            "colors" : {
+               "mainColor" : "6cd7d7",
+               "crestMainColor" : "DDB500",
+               "shirtColorAway" : "FFCC33",
+               "shirtColorHome" : "990000"
+            },
+            "id" : 178,
+            "logoUrls" : [
+               {
+                  "size" : "56x56",
+                  "url" : "https://images.onefootball.com/icons/internal/56/5.png"
+               },
+               {
+                  "url" : "https://images.onefootball.com/icons/internal/164/5.png",
+                  "size" : "164x164"
+               }
+            ]
+         },
+         "birthDate" : "1987-06-24",
+         "height" : "170",
+         "age" : 28,
+         "number" : 10,
+         "country" : "Argentina",
+         "firstName" : "Lionel",
+         "lastName" : "Messi (135)"
+      }
+   },
+   "message" : "Player Season Stats Feed successfully generated. Api Version: 1",
+   "status" : "ok",
+   "code" : 0
+}

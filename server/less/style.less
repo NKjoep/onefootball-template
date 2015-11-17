@@ -1,0 +1,82 @@
+// global variables coming from the parser...
+//@brand-color:
+//@player-img:
+//@team-img:
+
+@base-text-color: hardlight(@brand-color, #fff);
+@base-font-size: 350px;
+@base-smaller-font: @base-font-size/5.5;
+@base-space: @base-font-size/7;
+@base-overlay-color: fadeout(@brand-color, 12%);
+
+.player-card {
+  //didn't know the exact font, so I just picked the one from OneFootball website :P
+  font-family: 'pluto sans condensed regular','Helvetica Neue',Helvetica,sans-serif;
+  background-image: url('../images/bg-player-template.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-clip: padding-box;
+  background-size: cover; //the trick here to fill the box with the bg
+
+  &>.overlay { //the overlay color
+    background-color: @base-overlay-color; //the calculated color, thank you LESS <3
+    padding-bottom: @base-space;
+    padding-top: @base-space;
+  }
+
+  .main-logo {
+    display: inline-block; //so can be centered
+
+    @media (max-width: 992px) { //with small screen we give some space
+      margin-bottom: @base-space;
+    }
+    @media (min-width: 992px) { // with large screen we move it to left
+      float: left;
+      margin-left: @base-space;
+    }
+  }
+
+  .number {
+    color: @base-text-color;
+    font-size: @base-font-size;
+    margin: -45px 0 0 0;
+    line-height: 1;
+    padding: 0;
+  }
+
+  .lastname {
+    color: @base-text-color;
+    font-size: @base-smaller-font;
+  }
+
+  .logos {
+    @media (max-width: 992px) { //small screen bottom space
+      margin-bottom: @base-space;
+    }
+    @media (min-width: 992px) { //large screen push it to right
+      float: right;
+      margin-right: @base-space;
+    }
+    .logo { // here the images
+      width: 100px;
+      height: 100px;
+      overflow: hidden;
+      text-align: center;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-clip: padding-box;
+      background-size: cover;
+      display: inline-block;
+
+      &.player { //player stays at left so we give it a margin
+        background-image: url(@player-img);
+        border-radius: 100%;
+        margin-right: 15px;
+      }
+
+      &.team { // team, we don't want the border radius
+        background-image: url(@team-img);
+      }
+    }
+  }
+}
